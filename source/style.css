@@ -1,0 +1,45 @@
+body{background-color: #8a9cad;
+    margin-top: -120px;
+    padding: 150px;
+    display: block;
+}
+header{
+    background-color: #d183f0;
+border-radius: 12px;
+padding: 30px;
+width: 65%;
+font-size: 15px;}
+.quotes-form{
+    border-radius: 7px;
+    display: flex;
+}
+.quote-text{
+    padding: 12px;
+    font-size: 12px;
+    background-color: rgb(212, 198, 235);
+    border-radius: 7px;
+    width: 50%;
+    border: 2px solid #d11eb3;
+}
+.quote-search{
+    border-radius: 10px;
+    border: 2px solid rgb(191, 60, 196);
+    font-size: 12px;
+    width: 12%;
+    background-color: plum;
+}
+a{color: rgb(167, 30, 221);}
+main{
+    background-color: lightgray;
+    border-radius: 8px;
+    padding: 20px;
+    width: 68%;
+    margin-top: 15px;
+}
+.examples{
+    font-size: 14px;
+    margin-top: 10px;
+}
+footer{
+    margin-top: 15px;
+}
