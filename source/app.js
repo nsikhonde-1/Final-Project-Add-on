@@ -14,7 +14,7 @@ function showQuotes(event) {
         let apiKey = "713a631324o2dtc013aaf4374b846544";
     let context = `Generate programming motivation quote about ${words.value}`;
  let prompt =
-        "You are an expert in movitation quote about programming. You are to generate 1 line and separate it using < br >. ";
+        "You are an expert in movitation quote about programming. You are to generate 1 line and separate it using <br>. ";
         let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
  
     axios.get(apiUrl).then(displayQuotes);
