@@ -5,23 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programming Quotes</title>
     <link rel="stylesheet" href="source/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
 </head>
 <body>
     <h1>Programming Motivation Quote</h1>
     <header>
-        <form class="quotes-form">
-            <input type="text" placeholder="Enter any word" required class="quote-text">
+        <form class="quotes-form" id="quoteForm">
+            <input type="text" placeholder="Enter any word" required class="quote-text" id="quote-text">
             <input type="submit" class="quote-search">
         </form>
         <div class="examples">i.e Shoe, Flower, Book or Time</div>
     </header>
     <main>
-        <div>Talk is cheap.<br>
-             Show me the code.</div>
+        <div id="quoting-text"></div>
     </main>
     <footer>This was coded by <a href="#" target="_blank">Nomcebo Sikhonde</a> 
         and is open-sourced on <a href="#" target="_blank">GitHub</a> 
         and hosted by <a href="#" target="_blank">Netlify.</a>
     </footer>
+    <script src="source/app.js"></script>
 </body>
 </html>

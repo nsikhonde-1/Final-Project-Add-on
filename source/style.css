@@ -1,7 +1,8 @@
-body{background-color: #8a9cad;
+body{background-color: #d7e7f5;
     margin-top: -120px;
     padding: 150px;
     display: block;
+    max-width: 90%;
 }
 header{
     background-color: #d183f0;
